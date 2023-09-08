@@ -57,7 +57,11 @@ li.centering {text-align: center;}
 .contact-color {color: var(--color-text)}
 .contact-color .contact-color:hover, .contact-color:focus {color: var(--color-logo)}
 .text .text:hover, .text:focus {color: var(--color-logo)}
-div.style-one {background-color: var(--color-banner)}
+div.style-one {
+    width: 1600px;
+    height: 600px;
+    background-image: url(/img/fone.jpg);
+    background-color: var(--color-banner)}
 h1.banner {color: var(--color-text-banner);
     text-align: center;
     font-family: Roboto;
@@ -131,7 +135,7 @@ footer.style{background-color: var(--color-banner);}
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;}
-.address-style-text {text-indent: 8%;}
+.address-style-text {text-indent: 5%;}
 
 button.button-portfolio {border: none;
     border-radius: 4px;
