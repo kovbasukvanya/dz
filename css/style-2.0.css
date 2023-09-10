@@ -1,0 +1,19 @@
+
+
+/*----------- Загального призначення----------------*/
+
+:root{
+    --color-logo: #2196F3;
+    --color-text-logo: #212121;
+    --color-banner: #2F303A;
+    --color-text-banner: #FFF;
+    --color-text: #757575;
+    --color-text-footer: rgba(255, 255, 255, 0.60);
+    --color-secondary-color: #f5f4fa;
+    --color-background: orange;
+/*    --color-background: #ECECEC;*/
+}
+
+body {
+    background-color: var(--color-background)
+}
