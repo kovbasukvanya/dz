@@ -1,0 +1,23 @@
+
+.container {
+    perspective: 2000px;
+    width: 300px;
+    height: 400px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%)
+}
+
+div, svg {
+    position: absolute;
+}
+
+html, body,
+        .stage {
+    overflow: hidden;
+    background: #000;
+}
+
+div, svg {
+    position: absolute;
+}
